@@ -67,6 +67,8 @@ def main(args, resume_preempt=False):
     # ----------------------------------------------------------------------- #
     #  PASSED IN PARAMS FROM CONFIG FILE
     # ----------------------------------------------------------------------- #
+    print(f'Entry point v0.0.1')
+    v = 1 / 0
 
     # -- META
     cfgs_meta = args.get('meta')
